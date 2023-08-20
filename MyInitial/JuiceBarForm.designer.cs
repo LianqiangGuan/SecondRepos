@@ -108,7 +108,7 @@ namespace MyNameSpace
             this.twentyOunceRadioButton.Name = "twentyOunceRadioButton";
             this.twentyOunceRadioButton.Size = new System.Drawing.Size(132, 19);
             this.twentyOunceRadioButton.TabIndex = 2;
-            this.twentyOunceRadioButton.Text = "&20 Ounce 6.00";
+            this.twentyOunceRadioButton.Text = "&20 Ounce 9.00";
             this.twentyOunceRadioButton.UseVisualStyleBackColor = true;
             this.twentyOunceRadioButton.CheckedChanged += new System.EventHandler(this.twelveOunceRadioButton_CheckedChanged);
             // 
@@ -120,7 +120,7 @@ namespace MyNameSpace
             this.sixteenOunceRadioButton.Name = "sixteenOunceRadioButton";
             this.sixteenOunceRadioButton.Size = new System.Drawing.Size(132, 19);
             this.sixteenOunceRadioButton.TabIndex = 1;
-            this.sixteenOunceRadioButton.Text = "&16 Ounce 5.00";
+            this.sixteenOunceRadioButton.Text = "&16 Ounce 8.00";
             this.sixteenOunceRadioButton.UseVisualStyleBackColor = true;
             this.sixteenOunceRadioButton.CheckedChanged += new System.EventHandler(this.twelveOunceRadioButton_CheckedChanged);
             // 
@@ -132,7 +132,7 @@ namespace MyNameSpace
             this.twelveOunceRadioButton.Name = "twelveOunceRadioButton";
             this.twelveOunceRadioButton.Size = new System.Drawing.Size(132, 19);
             this.twelveOunceRadioButton.TabIndex = 0;
-            this.twelveOunceRadioButton.Text = "12 &Ounce 4.00";
+            this.twelveOunceRadioButton.Text = "12 &Ounce 7.00";
             this.twelveOunceRadioButton.UseVisualStyleBackColor = true;
             this.twelveOunceRadioButton.CheckedChanged += new System.EventHandler(this.twelveOunceRadioButton_CheckedChanged);
             // 
