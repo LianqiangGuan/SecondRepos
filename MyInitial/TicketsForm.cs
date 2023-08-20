@@ -45,5 +45,10 @@ namespace Ticketing
             mTicketPrice.calculatePrice();
             lblAmount.Text = System.Convert.ToString(mTicketPrice.AmountDue);
         }
-     }
+
+        private void Discount1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
