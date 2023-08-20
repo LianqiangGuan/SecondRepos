@@ -50,5 +50,10 @@ namespace Ticketing
         {
 
         }
+
+        private void grpSection_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

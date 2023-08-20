@@ -139,6 +139,7 @@
             this.grpSection.TabIndex = 9;
             this.grpSection.TabStop = false;
             this.grpSection.Text = "Section";
+            this.grpSection.Enter += new System.EventHandler(this.grpSection_Enter);
             // 
             // cmdCalculate
             // 
@@ -153,7 +154,7 @@
             // 
             // txtDiscount
             // 
-            this.txtDiscount.Location = new System.Drawing.Point(488, 183);
+            this.txtDiscount.Location = new System.Drawing.Point(383, 177);
             this.txtDiscount.Name = "txtDiscount";
             this.txtDiscount.Size = new System.Drawing.Size(233, 25);
             this.txtDiscount.TabIndex = 11;
@@ -161,9 +162,9 @@
             // lblDiscount
             // 
             this.lblDiscount.AutoSize = true;
-            this.lblDiscount.Location = new System.Drawing.Point(389, 185);
+            this.lblDiscount.Location = new System.Drawing.Point(285, 185);
             this.lblDiscount.Name = "lblDiscount";
-            this.lblDiscount.Size = new System.Drawing.Size(89, 19);
+            this.lblDiscount.Size = new System.Drawing.Size(71, 15);
             this.lblDiscount.TabIndex = 12;
             this.lblDiscount.Text = "Discount";
             this.lblDiscount.Click += new System.EventHandler(this.Discount1_Click);
