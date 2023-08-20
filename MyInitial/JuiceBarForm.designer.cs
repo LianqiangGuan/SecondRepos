@@ -77,11 +77,11 @@ namespace MyNameSpace
             this.groupBox1.Controls.Add(this.twentyOunceRadioButton);
             this.groupBox1.Controls.Add(this.sixteenOunceRadioButton);
             this.groupBox1.Controls.Add(this.twelveOunceRadioButton);
-            this.groupBox1.Location = new System.Drawing.Point(16, 81);
+            this.groupBox1.Location = new System.Drawing.Point(16, 76);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(245, 123);
+            this.groupBox1.Size = new System.Drawing.Size(245, 115);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Size";
@@ -90,10 +90,10 @@ namespace MyNameSpace
             // 
             this.noSizeRadioButton.AutoSize = true;
             this.noSizeRadioButton.Checked = true;
-            this.noSizeRadioButton.Location = new System.Drawing.Point(132, 100);
+            this.noSizeRadioButton.Location = new System.Drawing.Point(132, 94);
             this.noSizeRadioButton.Margin = new System.Windows.Forms.Padding(4);
             this.noSizeRadioButton.Name = "noSizeRadioButton";
-            this.noSizeRadioButton.Size = new System.Drawing.Size(79, 21);
+            this.noSizeRadioButton.Size = new System.Drawing.Size(100, 19);
             this.noSizeRadioButton.TabIndex = 3;
             this.noSizeRadioButton.TabStop = true;
             this.noSizeRadioButton.Text = "invisible";
@@ -103,36 +103,36 @@ namespace MyNameSpace
             // twentyOunceRadioButton
             // 
             this.twentyOunceRadioButton.AutoSize = true;
-            this.twentyOunceRadioButton.Location = new System.Drawing.Point(16, 81);
+            this.twentyOunceRadioButton.Location = new System.Drawing.Point(16, 76);
             this.twentyOunceRadioButton.Margin = new System.Windows.Forms.Padding(4);
             this.twentyOunceRadioButton.Name = "twentyOunceRadioButton";
-            this.twentyOunceRadioButton.Size = new System.Drawing.Size(123, 21);
+            this.twentyOunceRadioButton.Size = new System.Drawing.Size(132, 19);
             this.twentyOunceRadioButton.TabIndex = 2;
-            this.twentyOunceRadioButton.Text = "&20 Ounce 4.00";
+            this.twentyOunceRadioButton.Text = "&20 Ounce 6.00";
             this.twentyOunceRadioButton.UseVisualStyleBackColor = true;
             this.twentyOunceRadioButton.CheckedChanged += new System.EventHandler(this.twelveOunceRadioButton_CheckedChanged);
             // 
             // sixteenOunceRadioButton
             // 
             this.sixteenOunceRadioButton.AutoSize = true;
-            this.sixteenOunceRadioButton.Location = new System.Drawing.Point(16, 53);
+            this.sixteenOunceRadioButton.Location = new System.Drawing.Point(16, 50);
             this.sixteenOunceRadioButton.Margin = new System.Windows.Forms.Padding(4);
             this.sixteenOunceRadioButton.Name = "sixteenOunceRadioButton";
-            this.sixteenOunceRadioButton.Size = new System.Drawing.Size(123, 21);
+            this.sixteenOunceRadioButton.Size = new System.Drawing.Size(132, 19);
             this.sixteenOunceRadioButton.TabIndex = 1;
-            this.sixteenOunceRadioButton.Text = "&16 Ounce 3.50";
+            this.sixteenOunceRadioButton.Text = "&16 Ounce 5.00";
             this.sixteenOunceRadioButton.UseVisualStyleBackColor = true;
             this.sixteenOunceRadioButton.CheckedChanged += new System.EventHandler(this.twelveOunceRadioButton_CheckedChanged);
             // 
             // twelveOunceRadioButton
             // 
             this.twelveOunceRadioButton.AutoSize = true;
-            this.twelveOunceRadioButton.Location = new System.Drawing.Point(16, 23);
+            this.twelveOunceRadioButton.Location = new System.Drawing.Point(16, 22);
             this.twelveOunceRadioButton.Margin = new System.Windows.Forms.Padding(4);
             this.twelveOunceRadioButton.Name = "twelveOunceRadioButton";
-            this.twelveOunceRadioButton.Size = new System.Drawing.Size(123, 21);
+            this.twelveOunceRadioButton.Size = new System.Drawing.Size(132, 19);
             this.twelveOunceRadioButton.TabIndex = 0;
-            this.twelveOunceRadioButton.Text = "12 &Ounce 3.00";
+            this.twelveOunceRadioButton.Text = "12 &Ounce 4.00";
             this.twelveOunceRadioButton.UseVisualStyleBackColor = true;
             this.twelveOunceRadioButton.CheckedChanged += new System.EventHandler(this.twelveOunceRadioButton_CheckedChanged);
             // 
@@ -141,11 +141,11 @@ namespace MyNameSpace
             this.groupBox3.Controls.Add(this.ladiesCheckBox);
             this.groupBox3.Controls.Add(this.energyBoosterCheckBox);
             this.groupBox3.Controls.Add(this.vitaminPackCheckBox);
-            this.groupBox3.Location = new System.Drawing.Point(16, 217);
+            this.groupBox3.Location = new System.Drawing.Point(16, 203);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(245, 123);
+            this.groupBox3.Size = new System.Drawing.Size(245, 115);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Extras - $0.50 each";
@@ -153,10 +153,10 @@ namespace MyNameSpace
             // ladiesCheckBox
             // 
             this.ladiesCheckBox.AutoSize = true;
-            this.ladiesCheckBox.Location = new System.Drawing.Point(16, 84);
+            this.ladiesCheckBox.Location = new System.Drawing.Point(16, 79);
             this.ladiesCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.ladiesCheckBox.Name = "ladiesCheckBox";
-            this.ladiesCheckBox.Size = new System.Drawing.Size(121, 21);
+            this.ladiesCheckBox.Size = new System.Drawing.Size(141, 19);
             this.ladiesCheckBox.TabIndex = 2;
             this.ladiesCheckBox.Text = "For the &Ladies";
             this.ladiesCheckBox.UseVisualStyleBackColor = true;
@@ -165,10 +165,10 @@ namespace MyNameSpace
             // energyBoosterCheckBox
             // 
             this.energyBoosterCheckBox.AutoSize = true;
-            this.energyBoosterCheckBox.Location = new System.Drawing.Point(16, 55);
+            this.energyBoosterCheckBox.Location = new System.Drawing.Point(16, 52);
             this.energyBoosterCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.energyBoosterCheckBox.Name = "energyBoosterCheckBox";
-            this.energyBoosterCheckBox.Size = new System.Drawing.Size(128, 21);
+            this.energyBoosterCheckBox.Size = new System.Drawing.Size(141, 19);
             this.energyBoosterCheckBox.TabIndex = 1;
             this.energyBoosterCheckBox.Text = "Energy &Booster";
             this.energyBoosterCheckBox.UseVisualStyleBackColor = true;
@@ -177,10 +177,10 @@ namespace MyNameSpace
             // vitaminPackCheckBox
             // 
             this.vitaminPackCheckBox.AutoSize = true;
-            this.vitaminPackCheckBox.Location = new System.Drawing.Point(16, 27);
+            this.vitaminPackCheckBox.Location = new System.Drawing.Point(16, 25);
             this.vitaminPackCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.vitaminPackCheckBox.Name = "vitaminPackCheckBox";
-            this.vitaminPackCheckBox.Size = new System.Drawing.Size(111, 21);
+            this.vitaminPackCheckBox.Size = new System.Drawing.Size(125, 19);
             this.vitaminPackCheckBox.TabIndex = 0;
             this.vitaminPackCheckBox.Text = "&Vitamin Pack";
             this.vitaminPackCheckBox.UseVisualStyleBackColor = true;
@@ -189,10 +189,10 @@ namespace MyNameSpace
             // summaryButton
             // 
             this.summaryButton.Enabled = false;
-            this.summaryButton.Location = new System.Drawing.Point(604, 258);
+            this.summaryButton.Location = new System.Drawing.Point(604, 242);
             this.summaryButton.Margin = new System.Windows.Forms.Padding(4);
             this.summaryButton.Name = "summaryButton";
-            this.summaryButton.Size = new System.Drawing.Size(144, 34);
+            this.summaryButton.Size = new System.Drawing.Size(144, 32);
             this.summaryButton.TabIndex = 9;
             this.summaryButton.Text = "Summary &Report";
             this.summaryButton.UseVisualStyleBackColor = true;
@@ -201,10 +201,10 @@ namespace MyNameSpace
             // orderCompleteButton
             // 
             this.orderCompleteButton.Enabled = false;
-            this.orderCompleteButton.Location = new System.Drawing.Point(604, 217);
+            this.orderCompleteButton.Location = new System.Drawing.Point(604, 203);
             this.orderCompleteButton.Margin = new System.Windows.Forms.Padding(4);
             this.orderCompleteButton.Name = "orderCompleteButton";
-            this.orderCompleteButton.Size = new System.Drawing.Size(144, 34);
+            this.orderCompleteButton.Size = new System.Drawing.Size(144, 32);
             this.orderCompleteButton.TabIndex = 8;
             this.orderCompleteButton.Text = "Order &Complete";
             this.orderCompleteButton.UseVisualStyleBackColor = true;
@@ -212,10 +212,10 @@ namespace MyNameSpace
             // 
             // addToOrderButton
             // 
-            this.addToOrderButton.Location = new System.Drawing.Point(604, 175);
+            this.addToOrderButton.Location = new System.Drawing.Point(604, 164);
             this.addToOrderButton.Margin = new System.Windows.Forms.Padding(4);
             this.addToOrderButton.Name = "addToOrderButton";
-            this.addToOrderButton.Size = new System.Drawing.Size(144, 34);
+            this.addToOrderButton.Size = new System.Drawing.Size(144, 32);
             this.addToOrderButton.TabIndex = 7;
             this.addToOrderButton.Text = "&Add to Order";
             this.addToOrderButton.UseVisualStyleBackColor = true;
@@ -224,10 +224,10 @@ namespace MyNameSpace
             // exitButton
             // 
             this.exitButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.exitButton.Location = new System.Drawing.Point(604, 300);
+            this.exitButton.Location = new System.Drawing.Point(604, 281);
             this.exitButton.Margin = new System.Windows.Forms.Padding(4);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(144, 34);
+            this.exitButton.Size = new System.Drawing.Size(144, 32);
             this.exitButton.TabIndex = 10;
             this.exitButton.Text = "E&xit";
             this.exitButton.UseVisualStyleBackColor = true;
@@ -236,39 +236,39 @@ namespace MyNameSpace
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(535, 129);
+            this.label3.Location = new System.Drawing.Point(535, 121);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 17);
+            this.label3.Size = new System.Drawing.Size(87, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "Item Price";
             // 
             // itemPriceTextBox
             // 
-            this.itemPriceTextBox.Location = new System.Drawing.Point(615, 125);
+            this.itemPriceTextBox.Location = new System.Drawing.Point(615, 117);
             this.itemPriceTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.itemPriceTextBox.Name = "itemPriceTextBox";
             this.itemPriceTextBox.ReadOnly = true;
-            this.itemPriceTextBox.Size = new System.Drawing.Size(132, 22);
+            this.itemPriceTextBox.Size = new System.Drawing.Size(132, 25);
             this.itemPriceTextBox.TabIndex = 6;
             this.itemPriceTextBox.TabStop = false;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(535, 87);
+            this.label5.Location = new System.Drawing.Point(535, 82);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 17);
+            this.label5.Size = new System.Drawing.Size(71, 15);
             this.label5.TabIndex = 3;
             this.label5.Text = "&Quantity";
             // 
             // quantityTextBox
             // 
-            this.quantityTextBox.Location = new System.Drawing.Point(615, 84);
+            this.quantityTextBox.Location = new System.Drawing.Point(615, 79);
             this.quantityTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.quantityTextBox.Name = "quantityTextBox";
-            this.quantityTextBox.Size = new System.Drawing.Size(31, 22);
+            this.quantityTextBox.Size = new System.Drawing.Size(31, 25);
             this.quantityTextBox.TabIndex = 4;
             this.quantityTextBox.Text = "1";
             // 
@@ -291,21 +291,21 @@ namespace MyNameSpace
             this.summaryToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(48, 24);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // summaryToolStripMenuItem
             // 
             this.summaryToolStripMenuItem.Enabled = false;
             this.summaryToolStripMenuItem.Name = "summaryToolStripMenuItem";
-            this.summaryToolStripMenuItem.Size = new System.Drawing.Size(154, 26);
+            this.summaryToolStripMenuItem.Size = new System.Drawing.Size(160, 26);
             this.summaryToolStripMenuItem.Text = "&Summary";
             this.summaryToolStripMenuItem.Click += new System.EventHandler(this.summaryButton_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(154, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(160, 26);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitButton_Click);
             // 
@@ -318,13 +318,13 @@ namespace MyNameSpace
             this.fontToolStripMenuItem,
             this.colorToolStripMenuItem});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
             this.editToolStripMenuItem.Text = "&Edit";
             // 
             // addToOrderToolStripMenuItem
             // 
             this.addToOrderToolStripMenuItem.Name = "addToOrderToolStripMenuItem";
-            this.addToOrderToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.addToOrderToolStripMenuItem.Size = new System.Drawing.Size(211, 26);
             this.addToOrderToolStripMenuItem.Text = "&Add to Order";
             this.addToOrderToolStripMenuItem.Click += new System.EventHandler(this.addToOrderButton_Click);
             // 
@@ -332,25 +332,25 @@ namespace MyNameSpace
             // 
             this.orderCompleteToolStripMenuItem.Enabled = false;
             this.orderCompleteToolStripMenuItem.Name = "orderCompleteToolStripMenuItem";
-            this.orderCompleteToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.orderCompleteToolStripMenuItem.Size = new System.Drawing.Size(211, 26);
             this.orderCompleteToolStripMenuItem.Text = "&Order Complete";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(196, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(208, 6);
             // 
             // fontToolStripMenuItem
             // 
             this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
-            this.fontToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.fontToolStripMenuItem.Size = new System.Drawing.Size(211, 26);
             this.fontToolStripMenuItem.Text = "&Font...";
             this.fontToolStripMenuItem.Click += new System.EventHandler(this.fontToolStripMenuItem_Click);
             // 
             // colorToolStripMenuItem
             // 
             this.colorToolStripMenuItem.Name = "colorToolStripMenuItem";
-            this.colorToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.colorToolStripMenuItem.Size = new System.Drawing.Size(211, 26);
             this.colorToolStripMenuItem.Text = "&Color...";
             this.colorToolStripMenuItem.Click += new System.EventHandler(this.colorToolStripMenuItem_Click);
             // 
@@ -359,13 +359,13 @@ namespace MyNameSpace
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(55, 24);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(58, 24);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(133, 26);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(138, 26);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -373,7 +373,7 @@ namespace MyNameSpace
             // 
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(249, 46);
+            this.titleLabel.Location = new System.Drawing.Point(249, 43);
             this.titleLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(270, 25);
@@ -383,11 +383,11 @@ namespace MyNameSpace
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.drinkTypeComboBox);
-            this.groupBox2.Location = new System.Drawing.Point(281, 84);
+            this.groupBox2.Location = new System.Drawing.Point(281, 79);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(239, 256);
+            this.groupBox2.Size = new System.Drawing.Size(239, 240);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Select the drink type";
@@ -402,10 +402,10 @@ namespace MyNameSpace
             "Pomegranate smoothie",
             "Strawberry banana smoothie",
             "WheatBerry smoothie"});
-            this.drinkTypeComboBox.Location = new System.Drawing.Point(9, 38);
+            this.drinkTypeComboBox.Location = new System.Drawing.Point(9, 36);
             this.drinkTypeComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.drinkTypeComboBox.Name = "drinkTypeComboBox";
-            this.drinkTypeComboBox.Size = new System.Drawing.Size(220, 24);
+            this.drinkTypeComboBox.Size = new System.Drawing.Size(220, 23);
             this.drinkTypeComboBox.TabIndex = 0;
             // 
             // printDocument1
@@ -425,10 +425,10 @@ namespace MyNameSpace
             // JuiceBarForm
             // 
             this.AcceptButton = this.addToOrderButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.exitButton;
-            this.ClientSize = new System.Drawing.Size(781, 369);
+            this.ClientSize = new System.Drawing.Size(781, 346);
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.quantityTextBox);
             this.Controls.Add(this.label5);
