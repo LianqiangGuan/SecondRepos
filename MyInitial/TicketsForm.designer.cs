@@ -40,6 +40,7 @@
             this.cmdCalculate = new System.Windows.Forms.Button();
             this.txtDiscount = new System.Windows.Forms.TextBox();
             this.lblDiscount = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.grpSection.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -169,11 +170,23 @@
             this.lblDiscount.Text = "Discount";
             this.lblDiscount.Click += new System.EventHandler(this.Discount1_Click);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(383, 110);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(69, 19);
+            this.checkBox1.TabIndex = 13;
+            this.checkBox1.Text = "Child";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // TicketsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(648, 410);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.lblDiscount);
             this.Controls.Add(this.txtDiscount);
             this.Controls.Add(this.cmdCalculate);
@@ -208,6 +221,7 @@
         private System.Windows.Forms.Button cmdCalculate;
         private System.Windows.Forms.TextBox txtDiscount;
         private System.Windows.Forms.Label lblDiscount;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
